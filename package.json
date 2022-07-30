@@ -6,8 +6,13 @@
   "files": [
     "dist"
   ],
-  "main": "dist/index.js",
-  "keywords": ["media", "responsive", "media query", "react"],
+  "main": "dist/index.mjs",
+  "keywords": [
+    "media",
+    "responsive",
+    "media query",
+    "react"
+  ],
   "author": {
     "name": "Victor Bury",
     "email": "bury.victor@gmail.com"
@@ -17,7 +22,7 @@
     "url": "https://github.com/anymaniax/react-display"
   },
   "scripts": {
-    "build": "tsup ./src/index.ts --minify --clean --dts --splitting",
+    "build": "tsup ./src/index.tsx --minify --clean --dts --format esm --splitting",
     "dev": "tsup ./src/index.tsx --clean --dts --format esm --watch src",
     "lint": "eslint src/**/*.ts",
     "test": "vitest --global test.ts",

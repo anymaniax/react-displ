@@ -1,4 +1,4 @@
-import { createDisplay } from '../../../dist';
+import { createDisplay } from 'reactive';
 import './App.css';
 
 const Display = createDisplay(
