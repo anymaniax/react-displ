@@ -29,7 +29,6 @@
     "format": "prettier --write 'src/**/*.{js,ts}'",
     "prerelease": "yarn build",
     "release": "dotenv release-it",
-    "postrelease": "yarn build && yarn update-samples",
     "prepare": "husky install && cd ./samples/basic && yarn",
     "commitlint": "commitlint"
   },
