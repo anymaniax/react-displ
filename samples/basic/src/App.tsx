@@ -1,4 +1,4 @@
-import { createDisplay } from 'reactive';
+import { createDisplay } from 'react-displ';
 import './App.css';
 
 const Display = createDisplay(

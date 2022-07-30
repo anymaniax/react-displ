@@ -1,4 +1,4 @@
-Reactive simple breakpoints libs
+react-displ simple breakpoints libs
 
 ```tsx
 const Display = createDisplay(
